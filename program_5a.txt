@@ -1,3 +1,18 @@
+Consider the Aircraft database given below. The primary keys are
+
+underlined. Assume relevant data types for attributes.
+AIRCRAFT (Aircraft ID, Aircraft_name, Cruising_range)
+CERTIFIED (Emp ID, Aircraft ID)
+EMPLOYEE (Emp ID, Ename, Salary)
+Create the above tables in SQL. Specify primary and foreign keys properly.
+Enter at least 5 tuples in each table with relevant data. Solve the following
+queries.
+i. Find the names of pilots certified for Boeing aircraft
+ii. Arrange the Aircrafts with respect to the ascending order of
+distance.
+iii. Find the name of pilots who can operate flights with a range greater
+than 3000 miles but are not certified on any Boeing aircraft.
+
 -- Creating the tables
 CREATE TABLE AIRCRAFT (
     Aircraft_ID INT PRIMARY KEY,
