@@ -1,16 +1,16 @@
-1. a)
+--1. a)
 
-Consider the Sailor database given below. The primary keys are underlined.
-Assume relevant data types for attributes.
-SAILORS(Sid, Sname, Rating, Age)
-BOATS(Bid, Bname, Colour)
-RESERVES(Sid, Bid, day)
-Create the above tables in SQL. Specify primary and foreign keys properly.
-Enter at least 5 tuples in each table with relevant data. Solve the following
-queries.
-i. Find the names of sailors who have reserved at least one boat.
-ii. Find the Sid’s of sailors who have reserved a red or a green boat.
-iii. Find the Sid’s of sailors who have not reserved a boat
+--Consider the Sailor database given below. The primary keys are underlined.
+--Assume relevant data types for attributes.
+--SAILORS(Sid, Sname, Rating, Age)
+--BOATS(Bid, Bname, Colour)
+--RESERVES(Sid, Bid, day)
+--Create the above tables in SQL. Specify primary and foreign keys properly.
+--Enter at least 5 tuples in each table with relevant data. Solve the following
+--queries.
+--i. Find the names of sailors who have reserved at least one boat.
+--ii. Find the Sid’s of sailors who have reserved a red or a green boat.
+--iii. Find the Sid’s of sailors who have not reserved a boat--
 
 
 -- Creating the tables
