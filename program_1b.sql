@@ -1,15 +1,15 @@
-1. b)
+--1. b)
 
-Consider the following restaurant database with the following
-attributes -
- Name, address –(building, street, area, pincode),id, cuisine, nearby
-landmarks, online delivery- yes/no, famous for(name of the dish)
-Create 10 documents with data relevant to the following questions.
-Write and execute SQL queries:
-i. List the name and address of all restaurants in Bangalore with Italian
-cuisine
-ii. List the name, address and nearby landmarks of all restaurants in
-Bangalore where north Indianthali(cuisine) is available. 
+--Consider the following restaurant database with the following
+--attributes -
+-- Name, address –(building, street, area, pincode),id, cuisine, nearby
+--landmarks, online delivery- yes/no, famous for(name of the dish)
+--Create 10 documents with data relevant to the following questions.
+--Write and execute SQL queries:
+--i. List the name and address of all restaurants in Bangalore with Italian
+--cuisine
+--ii. List the name, address and nearby landmarks of all restaurants in
+--Bangalore where north Indianthali(cuisine) is available. 
 
 
 -- Create the Restaurants table
