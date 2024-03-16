@@ -1,13 +1,13 @@
-Consider the Employee database given below. The primary keys are
-underlined. Assume relevant data types for attributes.
-EMPLOYEE (Fname, Lname, SSN, Addrs, Sex, Salary, SuperSSN,
-Dno)
-DEPARTMENT (Dname, Dnumber, MgrSSN, MgrStartDate)
-PROJECT(Pno, Pname, Dnum)
-WORKS_ON (ESSN, Pno, Hours)
-Create the above tables in SQL. Specify primary and foreign keys properly.
-Enter at least 5 tuples in each table with relevant data. Solve the following
-queries
+--Consider the Employee database given below. The primary keys are
+--underlined. Assume relevant data types for attributes.
+--EMPLOYEE (Fname, Lname, SSN, Addrs, Sex, Salary, SuperSSN,
+--Dno)
+--DEPARTMENT (Dname, Dnumber, MgrSSN, MgrStartDate)
+--PROJECT(Pno, Pname, Dnum)
+--WORKS_ON (ESSN, Pno, Hours)
+--Create the above tables in SQL. Specify primary and foreign keys properly.
+--Enter at least 5 tuples in each table with relevant data. Solve the following
+--queries
 
 i. Retrieve the name of all employees whose salary is greater than the
 salary of all employees in dept 5.
