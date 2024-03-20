@@ -1,18 +1,18 @@
-Consider the Aircraft database given below. The primary keys are
-underlined. Assume relevant data types for attributes.
-AIRCRAFT (Aircraft ID, Aircraft_name, Cruising_range)
-CERTIFIED (Emp ID, Aircraft ID)
-EMPLOYEE (Emp ID, Ename, Salary)
-Create the above tables in SQL. Specify primary and foreign keys properly.
-Enter at least 5 tuples in each table with relevant data. Solve the following
-queries.
+--Consider the Aircraft database given below. The primary keys are
+--underlined. Assume relevant data types for attributes.
+--AIRCRAFT (Aircraft ID, Aircraft_name, Cruising_range)
+--CERTIFIED (Emp ID, Aircraft ID)
+--EMPLOYEE (Emp ID, Ename, Salary)
+--Create the above tables in SQL. Specify primary and foreign keys properly.
+--Enter at least 5 tuples in each table with relevant data. Solve the following
+--queries.
 
-i. Find the employee ID’s of employee who make the highest
-salary.
-ii. Find the name of aircrafts such that all pilots certified to operate
-them earn more than 50000
-iii. Find the employees who are not certified for operating any
-aircraft. 
+--i. Find the employee ID’s of employee who make the highest
+--salary.
+--ii. Find the name of aircrafts such that all pilots certified to operate
+--them earn more than 50000
+--iii. Find the employees who are not certified for operating any
+--aircraft. 
 
 -- Create the AIRCRAFT table
 CREATE TABLE AIRCRAFT (
