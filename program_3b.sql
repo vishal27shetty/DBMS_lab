@@ -1,14 +1,14 @@
-Consider the following restaurant table with the following attributes -
- Name, address –(building, street, area, pincode), id, cuisine, nearby
-landmarks, online delivery- (yes/no), famous for(name of the dish)
-Create 10 documents with data relevant to the following questions.
-Write and execute SQL queries:
+--Consider the following restaurant table with the following attributes -
+-- Name, address –(building, street, area, pincode), id, cuisine, nearby
+--landmarks, online delivery- (yes/no), famous for(name of the dish)
+--Create 10 documents with data relevant to the following questions.
+--Write and execute SQL queries:
 
-i. List the name, address and nearby landmarks of all restaurants in
-Bangalore where north Indian thali(cuisine) is available.
-ii. List the name and address of restaurants and also the dish the
-restaurant is famous for, in Bangalore where online delivery is
-available
+--i. List the name, address and nearby landmarks of all restaurants in
+--Bangalore where north Indian thali(cuisine) is available.
+--ii. List the name and address of restaurants and also the dish the
+--restaurant is famous for, in Bangalore where online delivery is
+--available
 
 -- Create the RESTAURANT table
 CREATE TABLE RESTAURANT (
