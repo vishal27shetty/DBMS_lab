@@ -1,15 +1,15 @@
-Consider the Supply-Parts database given below. The primary keys are
-underlined. Assume relevant data types for attributes.
-SUPPLIER (Sid, Sname, Address) 
-PART (PID, Pname, Color)
-SHIPMENT (Sid, PID, Cost)
-Create the above tables in SQL. Specify primary and foreign keys properly.
-Enter at least 5 tuples in each table with relevant data. Solve the following
-queries.
-i. Find the Sid’s of suppliers who supply a green part
-ii. For every supplier print the name of the supplier and the total number
-of parts that he/she supplies
-iii. Update the part color supplied by supplier s3 to yellow
+--Consider the Supply-Parts database given below. The primary keys are
+--underlined. Assume relevant data types for attributes.
+--SUPPLIER (Sid, Sname, Address) 
+--PART (PID, Pname, Color)
+--SHIPMENT (Sid, PID, Cost)
+--Create the above tables in SQL. Specify primary and foreign keys properly.
+--Enter at least 5 tuples in each table with relevant data. Solve the following
+--queries.
+--i. Find the Sid’s of suppliers who supply a green part
+--ii. For every supplier print the name of the supplier and the total number
+--of parts that he/she supplies
+--iii. Update the part color supplied by supplier s3 to yellow
 
 -- Create the SUPPLIER table
 CREATE TABLE SUPPLIER (
