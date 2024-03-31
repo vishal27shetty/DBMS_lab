@@ -1,17 +1,16 @@
-Consider the Employee database given below. The primary keys are
-
-underlined. Assume relevant data types for attributes.
-EMPLOYEE (Fname, Lname, SSN, Addrs, Sex, Salary, SuperSSN, Dno)
-DEPARTMENT (Dname, Dnumber, MgrSSN, MgrStartDate)
-DEPENDENT(Dname, ESSN)
-Create the above tables in SQL. Specify primary and foreign keys properly.
-Enter at least 5 tuples in each table with relevant data. Solve the following
-queries.
-i. For each department, retrieve the department name and the average
-salary of all employees working in that department
-ii. List the names of managers who have at least one dependent
-iii. Display the details of all departments having ‘tech’ as their
-substring
+--Consider the Employee database given below. The primary keys are
+--underlined. Assume relevant data types for attributes.
+--EMPLOYEE (Fname, Lname, SSN, Addrs, Sex, Salary, SuperSSN, Dno)
+--DEPARTMENT (Dname, Dnumber, MgrSSN, MgrStartDate)
+--DEPENDENT(Dname, ESSN)
+--Create the above tables in SQL. Specify primary and foreign keys properly.
+--Enter at least 5 tuples in each table with relevant data. Solve the following
+--queries.
+--i. For each department, retrieve the department name and the average
+--salary of all employees working in that department
+--ii. List the names of managers who have at least one dependent
+--iii. Display the details of all departments having ‘tech’ as their
+--substring
 
 -- Create the EMPLOYEE table
 CREATE TABLE EMPLOYEE (
