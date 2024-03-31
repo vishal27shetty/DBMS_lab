@@ -1,10 +1,10 @@
-Consider the following Movie table with the following attributes - Actor_name,Actor_id, Actor_birthdate, Director_name,Director_id,
-Director_birthdate, film_title, year of production ,type (thriller,
-comedy, etc.)
-Create 5 tuples and insert values into it
-Write and execute SQL queries:
-i. retirve all the movies acted by John in the year 2018
-ii. retirve only the actors names and type of the movie directed by Ram
+--Consider the following Movie table with the following attributes - Actor_name,Actor_id, Actor_birthdate, Director_name,Director_id,
+--Director_birthdate, film_title, year of production ,type (thriller,
+--comedy, etc.)
+--Create 5 tuples and insert values into it
+--Write and execute SQL queries:
+--i. retirve all the movies acted by John in the year 2018
+--ii. retirve only the actors names and type of the movie directed by Ram
 
 CREATE TABLE Movie (
     Actor_name VARCHAR(100),
