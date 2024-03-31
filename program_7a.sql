@@ -1,18 +1,17 @@
-Consider the following Accident Tracker Schema. The primary keys are
-
-underlined.
-PERSON (driver – id #, name, address)
-CAR (Regno, model, year)
-ACCIDENT (report-number, acc_date, location)
-OWNS (driver-id #, Regno)
-PARTICIPATED (driver-id, Regno, report-number, damageamount)
-Create the above tables in SQL. Specify primary and foreign keys properly.
-Enter at least 5 tuples in each table with relevant data. Solve the following
-queries.
-i. Display the unique Regno’s of the cars involved in accidents.
-ii. Display the car Regno and model of the car which has the maximum
-damage amount.
-iii. Display the number of cars owned by each driver.
+--Consider the following Accident Tracker Schema. The primary keys are
+--underlined.
+--PERSON (driver – id #, name, address)
+--CAR (Regno, model, year)
+--ACCIDENT (report-number, acc_date, location)
+--OWNS (driver-id #, Regno)
+--PARTICIPATED (driver-id, Regno, report-number, damageamount)
+--Create the above tables in SQL. Specify primary and foreign keys properly.
+--Enter at least 5 tuples in each table with relevant data. Solve the following
+--queries.
+--i. Display the unique Regno’s of the cars involved in accidents.
+--ii. Display the car Regno and model of the car which has the maximum
+--damage amount.
+--iii. Display the number of cars owned by each driver.
 
 -- Create PERSON Table
 CREATE TABLE PERSON (
