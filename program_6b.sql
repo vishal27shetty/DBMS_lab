@@ -1,13 +1,13 @@
-Consider the following Tourist places table with the following
+--Consider the following Tourist places table with the following
 
-attributes -
-Place, address – (state, id), tourist attractions,best time of the year to
-visit,modes of transport(include nearest airport, railway station etc),
-accommodation, food - what not to miss for sure
-Create 10 documents with data relevant to the following questions.
-Write and execute SQL queries:
-i. List all the tourist places of Karnataka
-ii. List the places sorted state wise
+--attributes -
+--Place, address – (state, id), tourist attractions,best time of the year to
+--visit,modes of transport(include nearest airport, railway station etc),
+--accommodation, food - what not to miss for sure
+--Create 10 documents with data relevant to the following questions.
+--Write and execute SQL queries:
+--i. List all the tourist places of Karnataka
+--ii. List the places sorted state wise
 
 -- Create the Tourist_Places table
 CREATE TABLE Tourist_Places (
